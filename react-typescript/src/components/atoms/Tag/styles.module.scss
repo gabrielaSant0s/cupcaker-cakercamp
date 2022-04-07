@@ -1,0 +1,13 @@
+.cardTag{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    background-color: rgb(102, 107, 105);
+    color: rgb(245, 248, 248);
+    text-shadow: #000 1px 1px 1px;
+    border-radius: 3px;
+}

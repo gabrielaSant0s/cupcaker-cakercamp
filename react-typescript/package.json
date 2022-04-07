@@ -6,7 +6,7 @@
     "@hookform/resolvers": "~2.8.0",
     "@sentry/react": "^6.17.9",
     "@sentry/tracing": "^6.17.9",
-    "axios": "~0.21.2",
+    "axios": "^0.21.4",
     "classnames": "~2.3.1",
     "env-cmd": "~10.1.0",
     "enzyme": "~3.11.0",
