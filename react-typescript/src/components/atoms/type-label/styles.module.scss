@@ -1,0 +1,18 @@
+
+.etiqueta {
+    width: 5em;
+    height: 2em;
+    background-color: rgb(72, 74, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-shadow: #000 2px 2px 1px;
+    border-left: 5px solid #e53935;
+    font-weight: 700;
+}
+
+.etiqueta:hover{
+    background-color: #e53935;
+}
+
