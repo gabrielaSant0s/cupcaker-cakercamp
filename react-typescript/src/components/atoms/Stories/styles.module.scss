@@ -6,7 +6,9 @@
     justify-content: center;
     margin: auto;
     margin-top: 5em;
-    overflow: hidden
+    overflow: hidden;
+    border: 5px solid #ccc;
+    border-radius: 50%;
 }
 
 
@@ -16,13 +18,17 @@
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-   
 }
 
 .divImageStories:hover{
     border: 5px solid #e53935;
-    border-radius: 50%;;
-	transform: scale(1.1);
+    border-radius: 50%;
+
+    .imageStories{
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 }
 
 .cardStorie{
