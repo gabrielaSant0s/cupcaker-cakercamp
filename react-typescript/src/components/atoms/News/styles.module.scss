@@ -1,0 +1,78 @@
+.divCard{
+    width: 70%;
+    height: 20%;
+    border-bottom: 4px solid #e53935;
+    display: flex;
+    flex-direction: row;
+}
+
+.divCard:hover{
+    .divImageTag{
+    transition: all 0.3s;
+    .imageCard{
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }}
+
+    .contentCard{
+        .titleCard{
+            color: #e53935;
+        }
+    }
+}
+
+.divImageTag{
+    background-color: green;
+    overflow: hidden;
+    width: 55%;
+}
+
+.divImageTag:hover{
+    .labelCard div{
+        background-color: #e53935;
+    }
+}
+
+.imageCard{
+    width: 25em;
+    height: 100%;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.labelCard{
+    position: absolute;
+    top: 14em;
+    left: 1em;
+}
+
+.titleCard{
+    font-weight: 600;
+    margin-left: 1em;
+    font-size: 1.4em;
+}
+
+.descriptionCard{
+    margin-left: 2em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.rodapeCard{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content:left;
+    margin-top: 7.5em;
+    margin-left: 1em;
+    font-size: .9rem;  
+}
+
+.divTags{
+    display: flex;
+    flex-direction: row;
+    div{
+        margin-right: 0.3em;
+    }
+}

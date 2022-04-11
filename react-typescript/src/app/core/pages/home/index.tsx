@@ -6,12 +6,13 @@ import Stories from 'components/atoms/Stories'
 import Footer from 'components/atoms/footer'
 import Tag from 'components/atoms/Tag'
 import Header from 'components/atoms/header'
+import News from 'components/atoms/News'
 
 const Home = (): JSX.Element => {
   return (
     <main>
-      <Stories/>
-      <Header/>
+      <News tags={["PS5","Xbox One"]}/>
+      
      
     </main>
   )
