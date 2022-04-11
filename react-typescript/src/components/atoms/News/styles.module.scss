@@ -20,10 +20,7 @@
             color: #e53935;
         }
     }
-    
-
 }
-
 
 .divImageTag{
     background-color: green;
@@ -31,6 +28,11 @@
     width: 55%;
 }
 
+.divImageTag:hover{
+    .labelCard div{
+        background-color: #e53935;
+    }
+}
 
 .imageCard{
     width: 25em;
@@ -57,7 +59,6 @@
     font-weight: 500;
 }
 
-
 .rodapeCard{
     display: flex;
     align-items: baseline;
@@ -67,6 +68,11 @@
     margin-left: 1em;
     font-size: .9rem;  
 }
+
 .divTags{
-    margin-right: 1%;
+    display: flex;
+    flex-direction: row;
+    div{
+        margin-right: 0.3em;
+    }
 }

@@ -11,7 +11,7 @@ import News from 'components/atoms/News'
 const Home = (): JSX.Element => {
   return (
     <main>
-      <News/>
+      <News tags={["PS5","Xbox One"]}/>
       
      
     </main>
