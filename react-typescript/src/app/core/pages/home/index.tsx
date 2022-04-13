@@ -8,12 +8,18 @@ import Tag from 'components/atoms/Tag'
 import Header from 'components/atoms/header'
 import News from 'components/atoms/News'
 import HomeCarousel from 'components/atoms/carousel'
+import SectionStories from 'components/enums/SectionStories'
+import HomeNews from 'components/enums/HomeNews'
+
 
 const Home = (): JSX.Element => {
   return (
     <main>
+      <Header/>
       <HomeCarousel/>
-      
+      <SectionStories/>
+      <HomeNews/>
+      <Footer/>
      
     </main>
   )
