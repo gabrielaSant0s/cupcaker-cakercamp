@@ -18,9 +18,7 @@ const Stories = ({image="https://static.gamevicio.com/imagens_up/big/71/novo-ope
     //         return linkImagem
     //     })
     // }
-       
-
-    
+           
     return(
     <>
     {/* <div className={styles.divImageStories}>   
