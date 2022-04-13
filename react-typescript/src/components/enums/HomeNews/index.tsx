@@ -22,7 +22,9 @@ const HomeNews = (): JSX.Element => {
             description={item["description"]}
             author={item["author"]}
             tags={item["tags"]}
-            dateTime ={item["createdAt"]} />
+            dateTime ={item["createdAt"]}
+            type ={item["type"]}
+            comments ={item["comments"]} />
         )
     }
     
